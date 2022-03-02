@@ -1,0 +1,108 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-image: url(https://user-images.githubusercontent.com/66039545/155896295-8659168f-e5ca-4e53-b3d3-c0df1445d007.jpg);
+    height: 1200px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#cont {
+    background-color:grey;
+}
+
+.scroll {
+    margin-top: 800px;
+    font-weight: 900;
+}
+
+.list-group {
+    gap: 50px;
+}
+
+#men h3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    color: grey;
+    text-align: center;
+}
+
+#men h3::after {
+    content: "";
+    width: 90%;
+    height: 1px;
+    display: inline-block;
+    background: grey;
+    margin: 4px 10px;
+}
+
+.pages1 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 4%;
+
+}
+
+.card-body ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    
+}
+
+#women h3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 20px;
+    color: grey;
+    margin-top: -10px;
+
+}
+
+.line {
+    height: 1px;
+    width: 90%;
+    margin-left: 3rem;
+    background: #CBCBCB;
+}
+
+.pages2 ul {
+list-style: none;
+
+}
+
+.pages2 ul p {
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.pages2 ion-icon {
+    padding-left: 20px;
+
+}
+.card{
+    height: 100%;
+    background: lightgray;
+}
+
+
+
+
+
+
+
+
+    
