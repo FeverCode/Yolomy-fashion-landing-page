@@ -129,7 +129,7 @@ header {
 #about h3::before,
 #about h3::after {
     content: "";
-    width: 30%;
+    width: 25%;
     height: 1px;
     display: inline-block;
     background: #908361;
