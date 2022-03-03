@@ -60,6 +60,7 @@ header {
     flex-direction: column;
     align-items: flex-end;
     padding-right: 4%;
+    color: black;
 
 }
 
@@ -106,4 +107,76 @@ header {
 .card {
     height: 100%;
     background: lightgray;
+}
+
+#cont-about {
+    background-image: url(https://user-images.githubusercontent.com/66039545/156545917-38f68301-624a-4504-9e8e-ae7d2b18378c.jpg);
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+#about h3 {
+    color: white;
+    margin-top: 6%;
+    text-align: center;
+}
+
+#about h3::before,
+#about h3::after {
+    content: "";
+    width: 30%;
+    height: 1px;
+    display: inline-block;
+    background: #908361;
+    margin: 4px 12px;
+
+
+
+
+}
+
+
+#about p {
+    text-align: center;
+    color: white;
+    border-left: 2px solid #908361;
+    border-right: 2px solid #908361;
+    border-bottom: 2px solid #908361;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.card-footer {
+    background-color: rgb(86, 90, 90);
+}
+
+.card-footer img {
+    padding-left: 20%;
+}
+
+.card-footer p {
+    padding-left: 8%;
+}
+
+#contact {
+    background-color: rgb(46, 44, 44);
+}
+
+.white {
+    color: white;
+}
+
+#social h3 {
+    color: white;
+    padding-left: 10%;
+
+}
+
+#social ul {
+    list-style: none;
 }
