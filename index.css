@@ -9,7 +9,7 @@
 
 header{
     background-image: url(https://user-images.githubusercontent.com/66039545/155896295-8659168f-e5ca-4e53-b3d3-c0df1445d007.jpg);
-    height: 1200px;
+    height: 100vh;
     width: 100%;
     background-position: top;
     background-size: cover;
@@ -22,7 +22,7 @@ header{
 }
 
 .scroll {
-    margin-top: 800px;
+    margin-top:500px;
     font-weight: 900;
 }
 
@@ -66,17 +66,19 @@ header{
 #women h3 {
     font-size: 14px;
     font-weight: 500;
-    padding-right: 20px;
+    padding: 0;
     color: grey;
-    margin-top: -10px;
+    text-align: center;
 
 }
 
-.line {
-    height: 1px;
+#women h3::after {
+    content: "";
     width: 90%;
-    margin-left: 3rem;
-    background: #CBCBCB;
+    height: 1px;
+    display: inline-block;
+    background: grey;
+    margin: 4px 10px;
 }
 
 .pages2 ul {
@@ -86,7 +88,7 @@ list-style: none;
 
 .pages2 ul p {
     padding-left: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .pages2 ion-icon {
